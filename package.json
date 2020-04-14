@@ -7,7 +7,7 @@
 		"mio": "./bin/www"
 	},
 	"scripts": {
-		"compiler": "babel src -d dist",
+		"compile": "babel src -d dist",
 		"watch": "npm run compile -- --watch"
 	},
 	"repository": {
